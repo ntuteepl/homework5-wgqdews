@@ -12,7 +12,7 @@ int main()
         mon=min*0.9*0.9;
     else
         mon=min*0.9;
-    printf("%f",mon);
+    printf("%f",round(mon*10)/10);
 
     return 0;
 }
