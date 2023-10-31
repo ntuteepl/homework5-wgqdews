@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include<math.h>
 int main()
 {
     int min;
@@ -12,8 +11,7 @@ int main()
         mon=min*0.9*0.9;
     else
         mon=min*0.9;
-    printf("%f",round(mon*10)/10);
+    printf("%.1f",mon);
 
     return 0;
 }
-
