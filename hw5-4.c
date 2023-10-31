@@ -5,7 +5,7 @@ int main()
     int hou,min;
     float ang;
     scanf("%d%d",&hou,&min);
-    ang=hou*30-min*5.5;
+    ang=hou*30+min*0.5-min*6;
     if(ang<0)
         ang=ang*-1;
     if(ang>180)
@@ -13,3 +13,4 @@ int main()
     printf("%.3f",ang);
     return 0;
 }
+
